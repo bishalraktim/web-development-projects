@@ -1,0 +1,20 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Dancing Script', cursive;*/
+
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 1.66%;
+  border-bottom: 2px gray solid;
+  text-transform: uppercase;
+  width: 30%;
+  padding-bottom: 20px;
+}

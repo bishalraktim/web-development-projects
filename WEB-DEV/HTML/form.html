@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <div>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input id="firstName" name="first"type="text" placeholder="Robert" required>
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" name="last" type="text" placeholder="Doe" required>
+        </div>
+
+        <div>
+          <label for="male">Male</label>
+          <input id="male" type="radio" name="genderChoice" value="Male" required>
+          <label for="female">Female</label>
+          <input id="female" type="radio" name="genderChoice" value="Female" required>
+          <label for="other">Other</label>
+          <input id="other" type="radio" name="genderChoice" value="Other" required>
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="emailAddress" placeholder="your email" required>
+          <label for="password">Password:</label>
+          <input id="password" type="password" name="userPassword"
+          minlength="5" maxlength="10" placeholder="your password" required>
+        </div>
+
+        <div>
+          <label for="birthday">Birthday</label>
+          <select name="Month" id="birthday">
+            <option>Month</option>
+            <option value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+            <option value="apr">April</option>
+            <option value="may">May</option>
+          </select>
+
+          <label for="day">Day</label>
+          <select name="Day" id="day">
+            <option>Day</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+          </select>
+
+          <label for="year">Year</label>
+          <select name="Year" id="year">
+            <option>Year</option>
+            <option value="1986">1986</option>
+            <option value="1987">1987</option>
+            <option value="1988">1988</option>
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="agreed">I agree to the terms and conditions</label>
+          <input id="agreed" type="checkbox" name="check" required>
+        </div>
+
+        <div>
+          <button>Submit</button>
+        </div>
+
+      </div>
+
+    </form>
+  </body>
+</html>

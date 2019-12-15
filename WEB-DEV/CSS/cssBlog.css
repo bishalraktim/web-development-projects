@@ -1,0 +1,50 @@
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+body {
+  border: 20px solid gray;
+  margin: 20px 252px 20px 252px;
+  padding: 20px;
+  max-width: 700px;
+  width: 90%;
+}
+
+div:nth-of-type(1) p {
+  border-left: 5px solid gray;
+  padding-left: 5px;
+}
+
+div:nth-of-type(4) p {
+  border-left: 5px solid gray;
+  padding-left: 5px;
+}
+
+.date {
+  color: #3498DB;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.datefirst {
+  color: #3498DB;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-top: 0.2%;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
