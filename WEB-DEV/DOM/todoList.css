@@ -1,0 +1,9 @@
+.change_color {
+  color: blue;
+}
+
+.revert {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: red;
+}

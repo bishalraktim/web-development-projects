@@ -1,0 +1,130 @@
+body {
+  background-color: #232323;
+  margin: auto;
+}
+
+h1 {
+  background-color: steelblue;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: auto;
+  padding: 20px 0;
+}
+
+span {
+  font-size: 65px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.stripe {
+  background-color: white;
+  text-align: center;
+  height: 33px;
+  line-height: 2.1;
+}
+
+#newButton {
+  border: none;
+  background: none;
+  outline: none;
+  color: steelblue;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transition: all 0.5s;
+}
+
+#easyButton {
+  border: none;
+  background: none;
+  outline: none;
+  color: steelblue;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transition: all 0.5s;
+}
+
+#hardButton {
+  border: none;
+  /*background: none;*/
+  outline: none;
+  color: white;
+  background-color: steelblue;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  /*background-color: steelblue;
+  color: white;*/
+  transition: all 0.5s;
+}
+
+#message {
+  border: none;
+  outline: none;
+  color: red;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  width: 23%;
+}
+
+.square {
+  background-color: yellow;
+  padding: 10px 0;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  height: 155px;
+  border-radius: 30px;
+}
+
+.container {
+  width: 600px;
+  margin: 13px auto;
+}
+
+button {
+  line-height: 1.67;
+  padding-top: 3.8px;
+}
+
+#newButton:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+#easyButton:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+#hardButton:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+/*.easyBtnClassFirst {
+  background-color: red;
+  color: green;
+}
+
+.easyBtnClassSecond {
+  background: steelblue;
+  color: white;
+}*/
