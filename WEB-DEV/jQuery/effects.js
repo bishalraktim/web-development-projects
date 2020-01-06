@@ -11,7 +11,7 @@ $(".justify").on("click", function(){
 });
 
 //other functions:
-//slideUp(), slideDown() and slideToggle()
+//remove(), slideUp(), slideDown() and slideToggle()
 
 // $(".justify").on("click", function(){
 //   $(".select").slideToggle(1000, function(){
