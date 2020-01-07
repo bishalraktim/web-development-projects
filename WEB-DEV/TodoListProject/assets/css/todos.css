@@ -28,10 +28,6 @@ li {
   color: #666;
 }
 
-/*li:nth-of-type(2n) {
-  background-color: #2980b9;
-}*/
-
 span {
   background-color: #e74c3c;
   height: 40px;
@@ -73,6 +69,10 @@ input {
 li:nth-child(2n) {
   background-color: #f7f7f7;
 }
+
+/*li:nth-of-type(2n) {
+  background-color: #2980b9;
+}*/
 
 input:focus {
   background-color: #fff;
